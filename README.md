@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-[![tmetzke's github stats](https://github-readme-stats.vercel.app/api?username=tmetzke&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21)](https://github.com/anuraghazra/github-readme-stats)
+[![tmetzke's github stats](https://github-readme-stats.vercel.app/api?username=tmetzke&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21&count_private=true)](https://github.com/anuraghazra/github-readme-stats)
 [![tmetzke's languages](https://github-readme-stats.vercel.app/api/top-langs/?username=tmetzke&hide=javascript,css,html&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21)](https://github.com/tmetzke/tmetzke)
 
 <!--
