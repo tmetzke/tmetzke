@@ -38,4 +38,6 @@ jobs:
           GITHUB_REF: ${{ github.ref }}
           PRERELEASE: ${{ github.event.inputs.prerelease }}
       - name: Output branch name
-        run: echo "branch: ${{ steps.release-branch-name.outputs.name }}"
+        run: |-
+          echo "branch: ${{ steps.release-branch-name.outputs.name }}"
+
