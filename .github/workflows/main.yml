@@ -25,3 +25,14 @@ jobs:
         if: steps.get-tags.outputs.count > 1
         id: changelog
         uses: Requarks/changelog-action@v1
+        with:
+          token: ${{ github.token }}
+          tag: ${{ github.event.inputs.version }}
+          writeToFile: false
+          excludeTypes: build,docs,other,style,ci
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v1
+        with:
+          body: ${{ steps.changelog.outputs.changes }}
+          tag_name: foo
