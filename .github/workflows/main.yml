@@ -1,0 +1,23 @@
+name: Tests
+
+on:
+  push:
+    branches:
+      - '**'
+      - '!main'
+
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest 
+    steps:
+      - name: Get number of tags
+        id: get-tags
+        run: |-
+          TAG_COUNT=git tag | wc -l
+          echo "::set-output name=count::${TAG_COUNT}";
+      
+      - name: "Build Changelog"
+        if: steps.get-tags.outputs.count > 1
+        id: changelog
+        uses: Requarks/changelog-action@v1
