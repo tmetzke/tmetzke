@@ -16,6 +16,7 @@ jobs:
         id: get-tags
         run: |-
           TAG_COUNT=`git tag | wc -l`
+          echo "counted ${TAG_COUNT} tags";
           echo "::set-output name=count::${TAG_COUNT}";
       
       - name: "Build Changelog"
