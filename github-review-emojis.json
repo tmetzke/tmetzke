@@ -1,9 +1,8 @@
-[
-  {
-    "name" : "GitHub Reviews"
-  },
-  {
-    "text": "🙃",
-    "name": "nitpick"
-  }
-]
+[{
+  "name": "GitHub Code Review",
+  "type": "text",
+  "previewSize": "1em"
+},{
+  "text": "^\u1f643^",
+  "name": "nitpick"
+}]
