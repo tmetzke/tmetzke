@@ -14,3 +14,5 @@ jobs:
             claim
             start
             review
+          static-args: |
+            issue_numer=${{ github.event.issue.number }}
