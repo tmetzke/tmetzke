@@ -15,4 +15,4 @@ jobs:
             start
             review
           static-args: |
-            issue_numer=${{ github.event.issue.number }}
+            issue_number=${{ github.event.issue.number }}
