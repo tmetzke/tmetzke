@@ -6,6 +6,10 @@ jobs:
   claimCommandReaction:
     runs-on: ubuntu-latest
     steps:
+      - name: Output command and arguments
+        run: |
+          echo ${{ github.event.client_payload.slash_command.args.unnamed.arg1 }}
+          echo ${{ github.event.client_payload.slash_command.args.named.issue_number }}
       - uses: actions-ecosystem/action-add-assignees@v1
         with:
           github_token: ${{ secrets.PAT }}
