@@ -5,7 +5,7 @@ about: General proposal for the API strategy
 title: ''
 labels: ['component/c8-api', 'kind/proposal']
 assignees: ''
-projects: 'camunda/111'
+projects: 'tmetzke/1'
 
 ---
 
