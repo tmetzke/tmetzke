@@ -1,7 +1,7 @@
 ---
 
 name: API proposal
-description: General proposal for the API strategy
+about: General proposal for the API strategy
 title: ''
 labels: ['component/c8-api', 'kind/proposal']
 assignees: ''
